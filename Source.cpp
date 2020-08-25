@@ -1,12 +1,13 @@
 #include<iostream>
-int y = 56;
-void sum()
+void log(const char* notify);
+int divide(int a, int b)
 {
-	int y = ::y;
+	//log("division");
+	return a / b;
+
 }
 int main()
 {
-	int a = 20;
+	std::cout << divide(40,5) << std::endl;
 	std::cin.get();
-
 }
